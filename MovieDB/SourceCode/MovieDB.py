@@ -3,7 +3,7 @@
 from Language import LanguageClass
 
 #------------------------ENGLISH------------------------------------------
-Englishfilename = '/home/sachinpc/Desktop/MovieUpdate/MovieDB/English.txt'
+Englishfilename = '/home/sachinpc/git/MovieDBProject/MovieDB/English.txt'
 EnglishSystemPath1 = '/home/sachinpc/Downloads/New Movies/English'
 EnglishSystemPath2 = '/media/sachinpc/Local Disk/Entertainment/Movies/English'
 English = LanguageClass(Englishfilename)
@@ -13,7 +13,7 @@ English.WriteListToFile()
 
 
 #-----------------------Malayalam-----------------------------------------
-Malayalamfilename = '/home/sachinpc/Desktop/MovieUpdate/MovieDB/Malayalam.txt'
+Malayalamfilename = '/home/sachinpc/git/MovieDBProject/MovieDB/Malayalam.txt'
 MalayalamSystemPath1 = '/home/sachinpc/Downloads/New Movies/Malayalam'
 MalayalamSystemPath2 = '/media/sachinpc/Local Disk/Entertainment/Movies/Malayalam'
 Malayalam = LanguageClass(Malayalamfilename)
@@ -22,7 +22,7 @@ Malayalam.WriteListToFile()
 #-----------------------Malayalam-----------------------------------------
 
 #-----------------------Tamil-----------------------------------------
-Tamilfilename = '/home/sachinpc/Desktop/MovieUpdate/MovieDB/Tamil.txt'
+Tamilfilename = '/home/sachinpc/git/MovieDBProject/MovieDB/Tamil.txt'
 TamilSystemPath1 = '/home/sachinpc/Downloads/New Movies/Tamil'
 TamilSystemPath2 = '/media/sachinpc/Local Disk/Entertainment/Movies/Tamil'
 Tamil = LanguageClass(Tamilfilename)
@@ -32,7 +32,7 @@ Tamil.WriteListToFile()
 
 
 #-----------------------Hindi-----------------------------------------
-Hindifilename = '/home/sachinpc/Desktop/MovieUpdate/MovieDB/Hindi.txt'
+Hindifilename = '/home/sachinpc/git/MovieDBProject/MovieDB/Hindi.txt'
 HindiSystemPath1 = '/home/sachinpc/Downloads/New Movies/Hindi'
 HindiSystemPath2 = '/media/sachinpc/Local Disk/Entertainment/Movies/Hindi'
 Hindi = LanguageClass(Hindifilename)
