@@ -39,23 +39,5 @@ Hindi = LanguageClass(Hindifilename)
 Hindi.ScrapeMoviesFromDirectories(HindiSystemPath1,HindiSystemPath2)
 Hindi.WriteListToFile()
 #-----------------------Hindi-----------------------------------------
-
-def SearchMovie():
-	movieName = raw_input("Movie Name : ")
-	#Searching for movieName in the list
-	Languages = [Englishfilename, Malayalamfilename, Tamilfilename, Hindifilename]
-	#for file in Languages:
-	#	openedFile = open(file)
-	#	print openedFile
-		#for line in iter(Malayalamfilename):
-			#print line
-		#openedFile.close()
-	for index in range(len(Languages)):
-		openedFile = open(Languages[index])
-		for line in iter(openedFile):
-			print openedFile
-			print line
-	
-#SearchMovie()
 	
 
